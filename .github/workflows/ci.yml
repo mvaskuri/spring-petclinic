@@ -1,0 +1,9 @@
+name: My First Pipeline
+
+on: push          # run every time someone pushes code
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest      # GitHub gives you a free Linux machine
+    steps:
+      - run: echo "Hello, the pipeline works!"
