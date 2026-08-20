@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest      # GitHub gives you a free Linux machine
     steps:
       - run: echo "Hello, the pipeline works!"
-      - run: echo "testing push code to GitHub!"
+      - run: echo "Current date is $(date)"
